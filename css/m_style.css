@@ -34,16 +34,17 @@
 		font-size: 1em;
 	}
 
-	header ul{
-		display: none;
-		text-align: center;
-	}
-	
 	.nav{
 		padding-left: 15px;
 	}
+
 	div.emblem{
 		display: none;
+	}
+
+	header ul{
+		display: none;
+		text-align: center;
 	}
 
 	header ul li a{
