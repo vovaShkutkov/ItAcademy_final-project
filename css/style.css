@@ -1,0 +1,144 @@
+/*описываем структуру страницы*/
+
+body{
+	min-width: 450px;
+	background-color: lightgrey;
+}
+
+/*Разметка header (шапки страницы и меню навигации)*/
+header{
+	background-color: black;
+	width: 100%;
+	position: fixed;
+	top: 0;
+			
+}
+
+div.wrapper .content{
+	margin-top: 80px;
+}
+/*Стилизация кнопки текущей страницы, для удобства навигации*/
+header ul li .currently{
+	border-bottom: solid 2px white;
+}
+
+/*Скрываем кнопку меню для узкой версии*/
+header #burger, header label{
+	display: none;
+}
+
+.unselect{
+	 user-select: none;
+}
+
+/*Стилизуем "Лого", она же ссылка на офиц. сайт*/
+header a.OWlink{
+	margin-left: 20px;
+	color: red;
+	text-decoration: none;
+	font-size: 2.5em;
+	font-weight: bold;
+	font-family: 'Rampart One', cursive;
+	height: 100%;
+	line-height: 80px;
+}
+
+
+header ul{
+	float: right;
+	margin-right: 20px;
+}
+
+header ul li{
+	display: inline-block;
+	list-style: none;
+	height: 80px;
+	line-height: 80px;
+	transition-duration: 1s;
+}
+
+/*Стилизуем элементы меню*/
+header ul li a{
+	text-decoration: none;
+	color: white;
+	font-family: "Lucida Console", Monaco, monospace;
+	font-size: 1.2em;
+	padding: 0 10px;
+}
+
+/*Стилизуем "подсветку" элемента меню*/
+header ul li:hover{
+	background-color: darkred;
+}
+
+/*Разметка footer (подвала страницы)*/
+footer{
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	flex-direction: row;
+	background-color: black;
+	color: white;
+	width: 100%;
+}
+
+footer div.nav, footer div.contacts{
+	 flex-basis: 250px;
+	 justify-content: center;
+	 flex-grow: 0;
+	 flex-shrink: 10;
+}
+
+footer .emblem{
+	flex-basis: 150px;
+	flex-grow: 0;
+	flex-shrink: 0;
+	height: 100%;
+	box-sizing: border-box;
+}
+
+footer div.emblem img{
+	height: 150px;
+}
+
+footer div.nav ul li, footer div.contacts ul li{
+	margin-bottom: 5px;
+	text-decoration: none;
+	color: grey;
+	font-family: "Lucida Console", Monaco, monospace;
+}
+
+
+
+footer div.nav ul, footer div.contacts ul{
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+
+footer div.nav ul, footer div.contacts ul{
+	list-style: none;
+	padding-top: 0.5em;
+	padding-bottom: 0.25em;
+}
+
+footer div.nav ul li a, footer div.contacts ul li a{
+	color: darkgrey;
+	text-decoration: none;
+	margin-bottom: 5px;
+}
+
+footer div.nav ul li a:hover{
+	border-bottom: 1px white solid;
+}
+
+footer div.contacts ul li a:hover{
+	color: #ffffff;
+}
+
+footer div.contacts ul li a svg:hover{
+	fill: #ffffff;
+}
+
+
+

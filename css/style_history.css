@@ -1,0 +1,86 @@
+.content{
+	width: 80%;
+	background: white;
+	margin: 0 auto;
+	font-family: 'Times New Roman';
+}
+
+div.content .title{
+	text-align: center;
+	font-size: 2em;
+	font-family: 'Rampart One', cursive;
+	font-weight: bold;
+	margin-top: 25px;
+	padding-bottom: 15px;
+}
+
+div.content img{
+	margin: 0 10px 10px 10px;
+	border: 1px solid darkred;
+	border-radius: 5px;
+	width: 250px;
+}
+
+.imgLeft{
+	float: left;
+}
+
+.imgRight{
+	float: right;
+}
+
+.txt{
+	width: 100%;
+}
+
+div.txt div.centerImg{
+	width: 100%;
+	text-align: center;
+}
+
+div.txt div.centerImg img{
+ 	width: 60%;
+ 	margin: 10px;
+}
+
+div.txt p{
+	margin-left: 10px;
+	font-size: 1.2em;
+}
+
+.rasporka{
+	clear: both;
+}
+
+a.up img{
+	margin: 15px 0;
+	float: left;
+	width: 50px !important; 
+	border: none;
+}
+
+a.contin{
+	font-size: 1.5em;
+	font-weight: bold;
+	margin: 15px 0;
+	float: right;
+}
+
+
+@media screen and  (max-width: 650px ){
+
+	.content{
+		text-align: center;
+	}
+		
+
+	div.content img{
+		float: none;
+		width: 80%;
+	}
+
+	p.title{
+		font-family: "Lucida Console", Monaco, monospace !important;
+		font-size: 1em;
+	}
+}

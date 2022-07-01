@@ -1,0 +1,145 @@
+div.content div.trofeeHall{
+	width: 65%;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+div.content div.trofeeHall img{
+	width: 100%;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+}
+
+div.content .cups{
+	width: 100%;
+	display: grid;
+	grid-template-rows: 1fr 1fr 1fr;
+	grid-gap: 15px ;
+	text-align: center;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+div.content div.cups>div{
+
+	border: black solid 2px;
+	border-radius: 5px;
+	background-color: white;
+}
+div.content div.cups>div p.title{
+
+	text-align: center;
+	font-size: 1.2em;
+	font-weight: bold;
+	font-family: 'Rampart One', cursive;
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
+
+div.content div.cups>div p.title2{
+
+	text-align: center;
+	font-size: 1.2em;
+	font-weight: bold;
+	font-family: 'Rampart One', cursive;
+	
+}
+
+
+.clCup{
+	grid-row: 1;
+	grid-column: 1/3;
+}
+
+.itCup{
+	grid-row: 1;
+	grid-column: 3/5;
+}
+
+
+div.content div.cups .cupIt, div.content div.cups .interCup,
+ div.content div.cups .superCup,  div.content div.cups .superCupUefa{
+
+	grid-row: 2;
+
+}
+
+iv.content div.cups .{
+	grid-row: 3;
+}
+
+.cupOwnerCup{
+	grid-column: 2/3;
+}
+
+.clubWorldCup{
+	grid-column: 3/4;
+}
+
+@media screen and  (max-width: 1050px) and (min-width: 901px ){
+	div.content div.trofeeHall{
+	width: 80%;
+	}
+
+	div.trofeeHall img:first-child{
+		display: none;
+	}
+
+	p.title, p.title2{
+		font-family: "Lucida Console", Monaco, monospace;
+	}
+}
+
+@media screen and  (max-width: 900px) and (min-width: 651px ){
+	div.trofeeHall img:first-child{
+		display: none;
+	}
+
+	div.content div.trofeeHall{
+	width: 90%;
+	}
+
+	p.title, p.title2{
+		font-family: "Lucida Console", Monaco, monospace;
+	}
+
+	div.content div.trofeeHall div.cups{
+		display: flex;
+		flex-direction: column;
+
+		flex-basis: calc((100% - 10px)/2);
+		flex-grow: 0;
+		flex-shrink: 0;
+		flex-wrap: wrap;
+	}
+
+	div.cups>div{
+		margin: 10px 0;
+	}
+
+}
+
+
+
+
+@media screen and  (max-width: 650px ){
+	
+	div.trofeeHall img:first-child{
+		display: none;
+	}
+
+	div.content div.trofeeHall{
+	width: 90%;
+	}
+
+	div.content div.trofeeHall div.cups{
+		display: flex;
+		flex-direction: column;
+		flex-basis: 80%;
+		flex-grow: 0;
+		flex-shrink: 0;
+	}
+
+
+}
