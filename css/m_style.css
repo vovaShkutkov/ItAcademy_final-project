@@ -38,6 +38,10 @@
 		display: none;
 		text-align: center;
 	}
+	
+	.nav{
+		padding-left: 15px;
+	}
 
 	header ul li a{
 		font-size: 1em;
