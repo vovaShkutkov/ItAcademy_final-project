@@ -18,12 +18,12 @@ div.wrapper .content_l_news{
 	align-items: space-evenly;
 }
 
-div.content .header_context{
+div.content .header_context {
 	text-align: center;
 	font-size: 2.5em;
 	font-weight: bold;
 	font-family: 'Rampart One', cursive;
-	margin-top: 20px;
+	padding-top: 15px;
 	transition-duration: 1.5s;
 }
 

@@ -79,13 +79,19 @@ p.rules{
 	.map iframe{
 		display: none;
 	}
+
 	a.unselect, h2{
 		font-family: "Lucida Console", Monaco, monospace;
 	}
+
 	div.toches{
 	width: 100%;
 	padding-left: 35px;
-}
+	}
+
+	#butPub{
+		border-radius: none;
+	}
 	
 }
 
