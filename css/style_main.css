@@ -54,7 +54,7 @@ div.content a.latest_news img{
 }
 
 
-div.content div.latest_news p{
+div.content div.latest_news {
 	flex-basis: 90%;
 	flex-grow: 0;
 	flex-shrink: 0;
