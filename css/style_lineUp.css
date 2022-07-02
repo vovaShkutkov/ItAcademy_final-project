@@ -101,6 +101,7 @@ a.up img{
 @media screen and (max-width: 840px ){
 	div.wrapper div.content a{
 		padding-right: 5px;
+		border-right: none;
 	}
 
 	div.wrapper div.card:hover{
@@ -108,10 +109,12 @@ a.up img{
 	border-radius: 10px;
 	}
 
-	a.unselect, h2{
+	div.nav a.unselect, h2{
 		font-family: "Lucida Console", Monaco, monospace !important; 
 		font-size: 16px;
 	}
+
+
 
 
 }
